@@ -14,7 +14,7 @@ To install this application you will need to do a few things
 - to start the application run npm start
 
 ## Screenshots
-![](IMG/screenshot_1.png);
-![](IMG/screenshot_2.png);
-![](IMG/screenshot_3.png);
+![](IMG/screenshot_1.png)
+![](IMG/screenshot_2.png)
+![](IMG/screenshot_3.png)
 ![](IMG/screenshot_4.png)
