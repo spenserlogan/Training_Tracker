@@ -2,7 +2,7 @@ const db = require("../Models");
 const router = require("express").Router();
 
 //get workouts
-router.get("/api/workouts/", (req, res) => {
+router.get("/api/workouts", (req, res) => {
     db.Workout.find({})
     .then(dbWorkout => {
         dbWorkout.forEach(workout=> {
@@ -24,8 +24,6 @@ router.get("/api/workouts/", (req, res) => {
 router.get("/api/workouts/range", (req, res) => {
     db.Workout.find({})
     .then(dbWorkout => {
-        console.log(dbWorkout);
-        console.log("all workouts");
         res.json(dbWorkout);
     })
     .catch(err => {
